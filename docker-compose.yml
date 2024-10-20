@@ -14,6 +14,32 @@ services:
       - db
     restart: unless-stopped
 
+  thomascode-api:
+    container_name: thomascode-api
+    image: thomascode/thomascode-api
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/customer
+    ports:
+      - "8088:8080"
+    networks:
+      - db
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  amigoscode-react:
+    container_name: thomascode-react
+    image: thomascode/thomascode-react
+    build:
+      context: frontend/react
+      args:
+        api_base_url: http://localhost:8088
+    ports:
+      - "3000:5173"
+    depends_on:
+      - thomascode-api
+    restart: unless-stopped
+
 networks:
   db:
     driver: bridge
