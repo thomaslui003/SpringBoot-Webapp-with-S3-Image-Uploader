@@ -2,8 +2,8 @@
   "AWSEBDockerrunVersion": 2,
   "containerDefinitions": [
     {
-      "name": "amigoscode-api",
-      "image": "amigoscode/amigoscode-api:21.02.2023.15.22.51",
+      "name": "thomascode-api",
+      "image": "thomascode/thomascode-api:latest",
       "essential": true,
       "memory": 512,
       "portMappings": [

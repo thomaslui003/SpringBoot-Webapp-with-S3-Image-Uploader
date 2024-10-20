@@ -138,7 +138,7 @@ const Login = () => {
                 bgGradient={{sm: 'linear(to-r, blue.600, purple.600)'}}
             >
                 <Text fontSize={"2xl"} color={'white'} fontWeight={"bold"} mb={5}>
-                    <Link target={"_blank"} href={"https://amigoscode.com/courses"}>
+                    <Link target={"_blank"} href={"https://github.com/thomaslui003/SpringBoot-Webapp-with-S3-Image-Uploader"}>
                         Link to Github Repo
                     </Link>
                 </Text>
