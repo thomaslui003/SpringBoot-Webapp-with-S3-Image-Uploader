@@ -15,7 +15,7 @@ jobs:
       postgres:
         image: postgres:14.1
         env:
-          POSTGRES_USER: amigoscode
+          POSTGRES_USER: thomascode
           POSTGRES_PASSWORD: password
           POSTGRES_DB: customer
         ports:
@@ -34,7 +34,7 @@ jobs:
       - name: Slack commit message and sha
         run: >
           curl -X POST -H 'Content-type: application/json'
-          --data '{"text":":github: https://github.com/amigoscode/spring-boot-full-stack/commit/${{ github.sha }} - ${{ github.event.head_commit.message }}"}' 
+          --data '{"text":":github: https://github.com/thomaslui003/SpringBoot-Webapp-with-S3-Image-Uploader/commit/${{ github.sha }} - ${{ github.event.head_commit.message }}"}' 
           ${{ secrets.SLACK_WEBHOOK_URL }}
       - name: Send Slack Message
         run: >

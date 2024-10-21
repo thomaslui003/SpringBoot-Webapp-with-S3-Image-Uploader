@@ -27,7 +27,7 @@ services:
       - db
     restart: unless-stopped
 
-  amigoscode-react:
+  thomascode-react:
     container_name: thomascode-react
     image: thomascode/thomascode-react
     build:

@@ -11,7 +11,7 @@ const Home = () => {
     ],
     datasets: [
       {
-        label: "Client Visits",
+        label: "Client Counts",
         data: [21, 19, 26, 27, 18, 18, 13, 15, 20, 23, 25, 30],
         fill: false,
         backgroundColor: "rgba(75,192,192,0.4)",
