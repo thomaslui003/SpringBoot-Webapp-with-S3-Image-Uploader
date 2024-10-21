@@ -1,6 +1,6 @@
 import {Form, Formik, useField} from 'formik';
 import * as Yup from 'yup';
-import {Alert, AlertIcon, Box, Button, FormLabel, Input, Select, Stack, VStack} from "@chakra-ui/react";
+import {Alert, AlertIcon, Avatar, Box, Button, FormLabel, Input, Select, Stack, VStack} from "@chakra-ui/react";
 import {customerProfilePictureURL, saveCustomer, updateCustomer, uploadCustomerProfilePicture} from "../../services/client.js";
 import {successNotification, errorNotification} from "../../services/notification.js";
 import React, {useCallback} from 'react'
@@ -74,7 +74,7 @@ const UpdateCustomerForm = ({ fetchCustomers, initialValues, customerId }) => {
     return (
         <>
         <VStack spacing={'5'} mb={'5'}>
-            <Image
+            <Avatar
             borderRadius={'full'}
             boxSize={'150px'}
             objectFit={'cover'}
