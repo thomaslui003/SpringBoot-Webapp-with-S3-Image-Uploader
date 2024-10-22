@@ -2,7 +2,7 @@
 
 ClientTrack is a simple full-stack web application built with Spring Boot and React.js, designed to manage client information and facilitate file uploads to Amazon S3. The following provides an overview of its features, setup instructions, and usage details.
 
-**You can access the live AWS s3 EC2 hosted web application [HERE](http://client-track-frontend.s3-website-us-west-1.amazonaws.com/dashboard/customers).**
+**You can access the live AWS S3 EC2 hosted web application [HERE](http://client-track-frontend.s3-website-us-west-1.amazonaws.com/dashboard/customers)**
 
 ## Features
 
@@ -53,3 +53,16 @@ The project includes Docker containers for:
    ```bash
    git clone <repository-url>
    cd ClientTrack
+
+2. **Build and Run Backend:**:
+   ```bash
+   cd backend
+   mvn clean install
+   java -jar target/clienttrack-backend.jar
+
+3. **Build and Run Frontend:**:
+   ```bash
+   cd /frontend/react/
+   npm install
+   npm run dev
+   
