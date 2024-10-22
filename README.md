@@ -56,19 +56,28 @@ The project includes Docker containers for:
 
 2. **Docker local Postgres DB Setup:**:
    ```bash
-   cd backend
-   mvn clean install
-   java -jar target/clienttrack-backend.jar
-
+   cd /SpringBoot-Webapp-with-S3-Image-Uploader-main/
+   docker compose up -d
+   docker exec -it postgres sh
+   psql -U thomascode -d postgres
+   \l
+   CREATE DATABASE customer;
+   
 3. **Build and Run Backend:**:
    ```bash
    cd backend
    mvn clean install
-   java -jar target/clienttrack-backend.jar
+   within code editor, run the main.java file (make sure jdk is installed beforehand)
 
-3. **Build and Run Frontend:**:
+4. **Build and Run Frontend:**:
    ```bash
-   cd /frontend/react/
+   cd /SpringBoot-Webapp-with-S3-Image-Uploader-main/frontend/react/
    npm install
    npm run dev
-   
+
+5. **Access Application:**:
+6. 
+   Open your browser and go to http://localhost:port/ to access the ClientTrack application.
+   cd /SpringBoot-Webapp-with-S3-Image-Uploader-main/frontend/react/
+   npm install
+   npm run dev
