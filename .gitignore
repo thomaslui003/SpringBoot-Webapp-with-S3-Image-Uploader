@@ -15,6 +15,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+build
 dist
 dist-ssr
 *.local
