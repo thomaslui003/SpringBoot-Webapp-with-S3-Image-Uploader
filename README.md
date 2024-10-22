@@ -54,7 +54,13 @@ The project includes Docker containers for:
    git clone <repository-url>
    cd ClientTrack
 
-2. **Build and Run Backend:**:
+2. **Docker local Postgres DB Setup:**:
+   ```bash
+   cd backend
+   mvn clean install
+   java -jar target/clienttrack-backend.jar
+
+3. **Build and Run Backend:**:
    ```bash
    cd backend
    mvn clean install
