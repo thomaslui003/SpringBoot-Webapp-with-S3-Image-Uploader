@@ -39,7 +39,7 @@ const MyDropzone = ({customerId, fetchCustomers}) => {
             successNotification("Success","Profile image uploaded")
             fetchCustomers();
         }).catch(()=> {
-            errorNotification("Error","Upload failed: Ensure your profile image is a JPEG under 1MB")
+            errorNotification("Error","Upload failed: Ensure your profile image is a JPEG or PNG under 1MB")
         })
     }, [])
 
