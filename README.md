@@ -76,7 +76,7 @@ The project includes Docker containers for:
    npm run dev
 
 5. **Access Application:**:
-6. 
+   
    Open your browser and go to http://localhost:port/ to access the ClientTrack application.
    cd /SpringBoot-Webapp-with-S3-Image-Uploader-main/frontend/react/
    npm install
