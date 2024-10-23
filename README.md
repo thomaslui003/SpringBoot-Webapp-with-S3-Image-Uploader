@@ -66,7 +66,6 @@ The project includes Docker containers for:
 1. **Clone Repository**:
    ```bash
    git clone https://github.com/thomaslui003/SpringBoot-Webapp-with-S3-Image-Uploader.git
-   cd ClientTrack
 
 2. **Setup local Postgres DB with Docker Container:**:
    ```bash
