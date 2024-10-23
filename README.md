@@ -82,5 +82,5 @@ The project includes Docker containers for:
 
 5. **Access Application:**:
    
-   Open your browser and go to http://localhost:port/ to access the ClientTrack application
+   Open your browser and go to http://localhost:<your port>/ to access the ClientTrack application
   
