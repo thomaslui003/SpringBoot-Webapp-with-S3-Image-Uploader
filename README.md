@@ -20,7 +20,6 @@ ClientTrack is a simple full-stack web application built with Spring Boot and Re
    - **Profile Image Upload**: Users can upload and update profile images using AWS S3 storage.
    - **Detailed Client Profiles**: Includes fields for name, age, gender, email, and profile image.
   
-
 2. **Ease of Use**:
    - **Responsive Design**: Ensures seamless usability across desktop and mobile devices.
    - **Drag-and-Drop Upload**: Intuitive file upload mechanism for images.
@@ -46,6 +45,10 @@ The project includes Docker containers for:
 
 ## Authentication and User Management
 
+<div align="center">
+    <img src="https://github.com/thomaslui003/Project-Images/blob/main/loginPage2.png?raw=true" alt="Main Interface" width="600"/>
+</div>
+
 - **Login Authentication**: Secure login system for users.
 - **Signup**: Registration page for new users.
 
@@ -65,7 +68,7 @@ The project includes Docker containers for:
    git clone <repository-url>
    cd ClientTrack
 
-2. **Docker local Postgres DB Setup:**:
+2. **Setup local Postgres DB with Docker Container:**:
    ```bash
    cd /SpringBoot-Webapp-with-S3-Image-Uploader-main/
    docker compose up -d
@@ -78,7 +81,7 @@ The project includes Docker containers for:
    ```bash
    cd backend
    mvn clean install
-   within code editor, run the main.java file (make sure jdk is installed beforehand)
+   within code editor, run the main.java file (Ensure jdk is installed beforehand)
 
 4. **Build and Run Frontend:**:
    ```bash
@@ -88,5 +91,5 @@ The project includes Docker containers for:
 
 5. **Access Application:**:
    
-   Open your browser and go to http://localhost:port/ to access the ClientTrack application
+   Open your browser and go to `<http://localhost:"your port number">` to access the ClientTrack application
   
