@@ -9,11 +9,17 @@ ClientTrack is a simple full-stack web application built with Spring Boot and Re
     <img src="https://github.com/thomaslui003/Project-Images/blob/main/webAppScreenShot.png?raw=true" alt="Main Interface" width="600"/>
 </div>
 
+
 ## Features
+
+<div align="center">
+    <img src="https://github.com/thomaslui003/Project-Images/blob/main/interfaceClientTrack.png?raw=true" alt="Main Interface" width="600"/>
+</div>
 
 1. **Client Information Management**:
    - **Profile Image Upload**: Users can upload and update profile images using AWS S3 storage.
    - **Detailed Client Profiles**: Includes fields for name, age, gender, email, and profile image.
+  
 
 2. **Ease of Use**:
    - **Responsive Design**: Ensures seamless usability across desktop and mobile devices.
