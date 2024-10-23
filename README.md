@@ -5,9 +5,9 @@ ClientTrack is a simple full-stack web application built with Spring Boot and Re
 **You can access the live AWS S3 EC2 hosted web application [HERE](http://client-track-frontend.s3-website-us-west-1.amazonaws.com/dashboard/customers)**
 
 ### Main Interface
-![Main Interface](<path-to-main-interface-image>)
-
-
+<div align="center">
+    <img src="https://github.com/thomaslui003/Project-Images/blob/main/webAppScreenShot.png?raw=true" alt="Main Interface" width="600"/>
+</div>
 
 ## Features
 
