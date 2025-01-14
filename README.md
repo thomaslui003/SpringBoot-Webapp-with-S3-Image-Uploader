@@ -2,6 +2,10 @@
 
 ClientTrack is a simple full-stack web application built with Spring Boot and React.js, designed to manage client information and facilitate file uploads to Amazon S3. The following provides an overview of its features, setup instructions, and usage details.
 
+To login to the system, you can either use the following fake account credentials or create your own account on the signup page: 
+- **Email**: `thomaslui@mail.com`
+- **Password**: `password`
+
 **You can access the live AWS hosted web application [HERE](http://client-track-frontend.s3-website-us-west-1.amazonaws.com/dashboard/customers)**
 
 &nbsp;
